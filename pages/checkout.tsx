@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Currency from "react-currency-formatter";
 import Stripe from "stripe";
-import getStripe from "../utils/get-stripejs";
+import getStripe from "../utils/get-Stripejs";
 import { useSelector } from "react-redux";
 import { selectBasketItems, selectBasketTotal } from "../redux/basketSlice";
 import CheckoutProduct from "../components/CheckoutProduct";
